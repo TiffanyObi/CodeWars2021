@@ -8,5 +8,6 @@
         <page name='rotateInts'/>
         <page name='frogJumps'/>
         <page name='Untitled Page'/>
+        <page name='permMissingElement'/>
     </pages>
 </playground>

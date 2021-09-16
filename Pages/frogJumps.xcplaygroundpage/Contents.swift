@@ -8,20 +8,37 @@ var greeting = "Hello, playground"
 //Count the minimal number of jumps that the small frog must perform to reach its target.
 
 
+//
+//public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
+//  var counter = 0
+//   var distance = Y - X
+//
+//    while distance >= D {
+//        counter += 1
+//        distance -= D
+//    }
+//
+//    if distance > 0 {
+//        counter += 1
+//        return counter
+//    } else {
+//        return counter
+//    }
+//}
+//
+//print(solution(10, 85, 30))
 
 public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
-  var counter = 0
-   var distance = Y - X
-
-    while distance > D {
-        counter += 1
-        distance -= D
-    }
+  
+   let distance = Y - X
     
-    if distance > 0 {
-        counter += 1
-        return counter
+   let initialJumps = distance / D
+    
+    if distance % D > 0 {
+        return (initialJumps + 1)
     } else {
-        return counter
+        return initialJumps
     }
 }
+
+print(solution(10, 85, 30))
