@@ -7,7 +7,11 @@
         <page name='binaryGap'/>
         <page name='rotateInts'/>
         <page name='frogJumps'/>
-        <page name='Untitled Page'/>
+        <page name='digPow'/>
         <page name='permMissingElement'/>
+        <page name='foldAnArray'/>
+        <page name='pyramidArray'/>
+        <page name='encryptThis'/>
+        <page name='digitalRoot'/>
     </pages>
 </playground>
