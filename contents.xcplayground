@@ -13,5 +13,6 @@
         <page name='pyramidArray'/>
         <page name='encryptThis'/>
         <page name='digitalRoot'/>
+        <page name='romanNumeralsDecoder'/>
     </pages>
 </playground>
