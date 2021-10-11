@@ -32,12 +32,14 @@ func recursiveSumOfDigits(_ int: Int) -> Int {
     } else {
         return finalSum
     }
-    
-  
 }
 
+
+recursiveSumOfDigits(2468097531) //9
 recursiveSumOfDigits(493193) //2
 recursiveSumOfDigits(132189) //6
 recursiveSumOfDigits(12) //3
-recursiveSumOfDigits(987654321) // 9
+recursiveSumOfDigits(987654321) //9
+recursiveSumOfDigits(13579) //7
+
 
