@@ -14,5 +14,6 @@
         <page name='encryptThis'/>
         <page name='digitalRoot'/>
         <page name='romanNumeralsDecoder'/>
+        <page name='findAllPrimes'/>
     </pages>
 </playground>
